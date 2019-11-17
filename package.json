@@ -1,0 +1,40 @@
+{
+  "name": "word-html",
+  "version": "0.1.0",
+  "description": "Convert docx document into HTML",
+  "engines": {
+    "node": ">=6 <7 || >=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/saikksub/smilodon.git"
+  },
+  "keywords": [
+    "word",
+    "office",
+    "document",
+    "ooxml",
+    "docx",
+    "html",
+    "json"
+  ],
+  "author": "saikksub <saikksub@gmail.com>",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/saikksub/smilodon/issues"
+  },
+  "homepage": "https://gitlab.com/saikksub/smilodon#readme",
+  "dependencies": {
+    "detect-browser": "^4.7.0",
+    "fast-xml-parser": "^3.13.0",
+    "he": "^1.2.0",
+    "jszip": "^3.2.2",
+    "jszip-utils": "^0.1.0",
+    "xml-js": "^1.6.11",
+    "xmldom": "^0.1.27"
+  }
+}
